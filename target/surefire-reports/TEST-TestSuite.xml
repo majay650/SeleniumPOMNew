@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="5" name="TestSuite" time="138.008" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\DC-DEL4-3"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="SYNAPSE"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="JOB_NAME" value="ProofhubAutomation"/>
+    <property name="COMPUTERNAME" value="DEL1-LHP-N01850"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="ajay.thakur1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ajay.thakur1\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/ProofhubAutomation/4/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-ProofhubAutomation-4"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\ajay.thakur1\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\ajay.thakur1\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ajay.thakur1\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 64912"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a8d876c4156aa05c"/>
+    <property name="=D:" value="D:\Jenkins"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Python37\Lib\site-packages;C:\IEDriverServer.exe;C:\Python37\Lib\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\phantomjs\phantomjs-2.1.1-windows\bin;C:\Users\ajay.thakur1\AppData\Roaming\npm\node_modules\casperjs\bin\casperjs;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ajay.thakur1\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;;C:\Users\ajay.thakur1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ajay.thakur1\AppData\Roaming\npm"/>
+    <property name="java.io.tmpdir" value="C:\Users\AJAY~1.THA\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\ajay.thakur1\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/ProofhubAutomation/4/"/>
+    <property name="M2_HOME" value="C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=C:" value="C:\Users\ajay.thakur1"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="a8d876c4156aa05c"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\ajay.thakur1\.jenkins\workspace\ProofhubAutomation@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ajay.thakur1\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="PyCharm Community Edition" value="C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;"/>
+    <property name="HOMEPATH" value="\Users\ajay.thakur1"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="webdriver.ie.driver" value="C:\IEDriverServer.exe"/>
+    <property name="=A:" value="A:\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="maven3.interceptor" value="C:\Users\ajay.thakur1\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Python37\Lib\site-packages;C:\IEDriverServer.exe;C:\Python37\Lib\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\phantomjs\phantomjs-2.1.1-windows\bin;C:\Users\ajay.thakur1\AppData\Roaming\npm\node_modules\casperjs\bin\casperjs;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ajay.thakur1\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;;C:\Users\ajay.thakur1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ajay.thakur1\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="ProofhubTest"/>
+    <property name="POM_ARTIFACTID" value="NaveenProofhubAutomation"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/ProofhubAutomation/"/>
+    <property name="OneDrive" value="C:\Users\ajay.thakur1\OneDrive"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/ProofhubAutomation/4/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\ajay.thakur1\.jenkins"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="TEMP" value="C:\Users\AJAY~1.THA\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="no_proxy" value="127.0.0.1"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ajay.thakur1\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="SYNAPSE"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/ProofhubAutomation/4/display/redirect?page=artifacts"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_201"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\ajay.thakur1"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/ProofhubAutomation/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ajay.thakur1"/>
+    <property name="USERNAME" value="ajay.thakur1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="SYNAPSE.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\ajay.thakur1\eclipse-workspace\NaveenProofhubAutomation"/>
+    <property name="maven.conf" value="C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\AJAY~1.THA\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.class.path" value="C:\Users\ajay.thakur1\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="OneDriveConsumer" value="C:\Users\ajay.thakur1\OneDrive"/>
+    <property name="WORKSPACE" value="C:\Users\ajay.thakur1\.jenkins\workspace\ProofhubAutomation"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/ProofhubAutomation/4/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_201/bin"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\ajay.thakur1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="ProofhubAutomation"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="NaveenProofhubAutomation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.proofhub.testcases.HomePageTest" name="validateHomePageAfterLogin" time="1.62"/>
+  <testcase classname="com.proofhub.testcases.PasswordPageTest" name="verifyLoginButtonOnPasswordPageTest" time="21.302">
+    <failure message="Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -&gt; xpath: //span[text()=&apos;LOG IN&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -&gt; xpath: //span[text()=&apos;LOG IN&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateLoginButton(PasswordPage.java:30)
+	at com.proofhub.testcases.PasswordPageTest.verifyLoginButtonOnPasswordPageTest(PasswordPageTest.java:31)
+</failure>
+    <system-out>Before navigating to: &apos;https://todo15.proofhub.com&apos;
+Navigated to:&apos;https://todo15.proofhub.com&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Found Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;NEXT&apos;]
+Found Element By : By.xpath: //span[text()=&apos;NEXT&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -&gt; xpath: //span[text()=&apos;NEXT&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -&gt; xpath: //span[text()=&apos;NEXT&apos;]]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+Found Element By : By.xpath: //span[text()=&apos;LOG IN&apos;]
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 15686
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597806071.057][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 19, 2020 8:31:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.proofhub.testcases.PasswordPageTest" name="verifyBackToLoginLinkTest" time="21.037">
+    <failure message="Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -&gt; link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -&gt; link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateBackToLoginLink(PasswordPage.java:35)
+	at com.proofhub.testcases.PasswordPageTest.verifyBackToLoginLinkTest(PasswordPageTest.java:36)
+</failure>
+    <system-out>Before navigating to: &apos;https://todo15.proofhub.com&apos;
+Navigated to:&apos;https://todo15.proofhub.com&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Found Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Trying to find Element By : By.xpath: //span[text()=&apos;NEXT&apos;]
+Found Element By : By.xpath: //span[text()=&apos;NEXT&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -&gt; xpath: //span[text()=&apos;NEXT&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -&gt; xpath: //span[text()=&apos;NEXT&apos;]]
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+Trying to find Element By : By.linkText: Back to login
+Found Element By : By.linkText: Back to login
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 10562
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597806116.077][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 19, 2020 8:32:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.proofhub.testcases.PasswordPageTest" name="login" time="1.136"/>
+  <testcase classname="com.proofhub.testcases.ProjectAddTest" name="validateAddProjectScreenOpenedTest" time="5.742"/>
+  <testcase classname="com.proofhub.testcases.ProjectAddTest" name="addProjectWithMandatoryFieldsTest" time="17.961"/>
+  <testcase classname="com.proofhub.testcases.ProjectAddTest" name="addProjectWithMandatoryFieldsTest" time="17.853"/>
+  <testcase classname="com.proofhub.testcases.ProjectAddTest" name="addProjectWithMandatoryFieldsTest" time="17.251"/>
+  <testcase classname="com.proofhub.testcases.ProjectsAssignedToMeTest" name="validateAssignedToMePageLoadedTest" time="4.262"/>
+  <testcase classname="com.proofhub.testcases.Test1" name="userNamePageUIElementsTest" time="25.591">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.proofhub.testcases.Test1.userNamePageUIElementsTest(Test1.java:29)
+</failure>
+    <system-out>Before navigating to: &apos;https://todo15.proofhub.com&apos;
+Navigated to:&apos;https://todo15.proofhub.com&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 13830
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597806380.168][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 19, 2020 8:36:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.proofhub.testcases.UsernamePageTest" name="usernamePageTitleTest" time="0.022">
+    <failure message="expected [todo12] but found [ProofHub]" type="java.lang.AssertionError">java.lang.AssertionError: expected [todo12] but found [ProofHub]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.proofhub.testcases.UsernamePageTest.usernamePageTitleTest(UsernamePageTest.java:33)
+</failure>
+    <system-out>Before navigating to: &apos;https://todo15.proofhub.com&apos;
+Navigated to:&apos;https://todo15.proofhub.com&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 29849
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597806406.780][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 19, 2020 8:36:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.proofhub.testcases.UsernamePageTest" name="uiElementsTest" time="2.73"/>
+  <testcase classname="com.proofhub.testcases.UsernamePageTest" name="usernamePage" time="1.501">
+    <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.proofhub.pages.UsernamePage.enterUsername(UsernamePage.java:59)
+	at com.proofhub.testcases.UsernamePageTest.usernamePage(UsernamePageTest.java:48)
+</failure>
+    <system-out>Before navigating to: &apos;https://todo15.proofhub.com&apos;
+Navigated to:&apos;https://todo15.proofhub.com&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Found Element By : By.xpath: //input[@name=&apos;userNameEmail&apos;]
+Exception occured: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 13064
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597806448.166][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 19, 2020 8:37:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>

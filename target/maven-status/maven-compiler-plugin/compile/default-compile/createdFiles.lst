@@ -1,0 +1,10 @@
+com\proofhub\util\TestUtil.class
+com\proofhub\pages\ProjectAddPage.class
+com\proofhub\base\TestBase.class
+com\proofhub\pages\UsernamePage.class
+com\proofhub\util\WebEventListener.class
+com\proofhub\pages\HomePage.class
+com\proofhub\ExtentReportListener\ExtentReporterNG.class
+com\proofhub\pages\AddNewProjectPage.class
+com\proofhub\pages\ProjectsAssignedToMePage.class
+com\proofhub\pages\PasswordPage.class

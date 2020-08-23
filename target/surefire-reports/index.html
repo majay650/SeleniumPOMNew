@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 5 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.Test1" hash-for-method="userNamePageUIElementsTest">userNamePageUIElementsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.UsernamePageTest" hash-for-method="usernamePage">usernamePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.UsernamePageTest" hash-for-method="usernamePageTitleTest">usernamePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.PasswordPageTest" hash-for-method="verifyBackToLoginLinkTest">verifyBackToLoginLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.PasswordPageTest" hash-for-method="verifyLoginButtonOnPasswordPageTest">verifyLoginButtonOnPasswordPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.ProjectAddTest" hash-for-method="addProjectWithMandatoryFieldsTest(Project3)">addProjectWithMandatoryFieldsTest(Project3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.ProjectAddTest" hash-for-method="addProjectWithMandatoryFieldsTest(Project2)">addProjectWithMandatoryFieldsTest(Project2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.ProjectAddTest" hash-for-method="addProjectWithMandatoryFieldsTest(Project1)">addProjectWithMandatoryFieldsTest(Project1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.PasswordPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.UsernamePageTest" hash-for-method="uiElementsTest">uiElementsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.ProjectAddTest" hash-for-method="validateAddProjectScreenOpenedTest">validateAddProjectScreenOpenedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.ProjectsAssignedToMeTest" hash-for-method="validateAssignedToMePageLoadedTest">validateAssignedToMePageLoadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.proofhub.testcases.HomePageTest" hash-for-method="validateHomePageAfterLogin">validateHomePageAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.proofhub.testcases.UsernamePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernamePage">
+                  </a> <!-- usernamePage -->
+                  <span class="method-name">usernamePage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.proofhub.pages.UsernamePage.enterUsername(UsernamePage.java:59)
+	at com.proofhub.testcases.UsernamePageTest.usernamePage(UsernamePageTest.java:48)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 43 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernamePageTitleTest">
+                  </a> <!-- usernamePageTitleTest -->
+                  <span class="method-name">usernamePageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [todo12] but found [ProofHub]
+	at com.proofhub.testcases.UsernamePageTest.usernamePageTitleTest(UsernamePageTest.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.proofhub.testcases.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userNamePageUIElementsTest">
+                  </a> <!-- userNamePageUIElementsTest -->
+                  <span class="method-name">userNamePageUIElementsTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.proofhub.testcases.Test1.userNamePageUIElementsTest(Test1.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.proofhub.testcases.PasswordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackToLoginLinkTest">
+                  </a> <!-- verifyBackToLoginLinkTest -->
+                  <span class="method-name">verifyBackToLoginLinkTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -&gt; link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateBackToLoginLink(PasswordPage.java:35)
+	at com.proofhub.testcases.PasswordPageTest.verifyBackToLoginLinkTest(PasswordPageTest.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginButtonOnPasswordPageTest">
+                  </a> <!-- verifyLoginButtonOnPasswordPageTest -->
+                  <span class="method-name">verifyLoginButtonOnPasswordPageTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -&gt; xpath: //span[text()=&apos;LOG IN&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL1-LHP-N01850&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateLoginButton(PasswordPage.java:30)
+	at com.proofhub.testcases.PasswordPageTest.verifyLoginButtonOnPasswordPageTest(PasswordPageTest.java:31)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.proofhub.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageAfterLogin">
+                  </a> <!-- validateHomePageAfterLogin -->
+                  <span class="method-name">validateHomePageAfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.proofhub.testcases.UsernamePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uiElementsTest">
+                  </a> <!-- uiElementsTest -->
+                  <span class="method-name">uiElementsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.proofhub.testcases.ProjectsAssignedToMeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAssignedToMePageLoadedTest">
+                  </a> <!-- validateAssignedToMePageLoadedTest -->
+                  <span class="method-name">validateAssignedToMePageLoadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.proofhub.testcases.PasswordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.proofhub.testcases.ProjectAddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProjectWithMandatoryFieldsTest(Project3)">
+                  </a> <!-- addProjectWithMandatoryFieldsTest(Project3) -->
+                  <span class="method-name">addProjectWithMandatoryFieldsTest</span>
+                  <span class="parameters">(Project3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProjectWithMandatoryFieldsTest(Project2)">
+                  </a> <!-- addProjectWithMandatoryFieldsTest(Project2) -->
+                  <span class="method-name">addProjectWithMandatoryFieldsTest</span>
+                  <span class="parameters">(Project2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProjectWithMandatoryFieldsTest(Project1)">
+                  </a> <!-- addProjectWithMandatoryFieldsTest(Project1) -->
+                  <span class="method-name">addProjectWithMandatoryFieldsTest</span>
+                  <span class="parameters">(Project1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddProjectScreenOpenedTest">
+                  </a> <!-- validateAddProjectScreenOpenedTest -->
+                  <span class="method-name">validateAddProjectScreenOpenedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.proofhub.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.proofhub.testcases.PasswordPageTest&quot;/&gt;
+      &lt;class name=&quot;com.proofhub.testcases.ProjectAddTest&quot;/&gt;
+      &lt;class name=&quot;com.proofhub.testcases.ProjectsAssignedToMeTest&quot;/&gt;
+      &lt;class name=&quot;com.proofhub.testcases.Test1&quot;/&gt;
+      &lt;class name=&quot;com.proofhub.testcases.UsernamePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userNamePageUIElementsTest')
+data.setCell(0, 2, 'com.proofhub.testcases.Test1')
+data.setCell(0, 3, 25591);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginButtonOnPasswordPageTest')
+data.setCell(1, 2, 'com.proofhub.testcases.PasswordPageTest')
+data.setCell(1, 3, 21298);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBackToLoginLinkTest')
+data.setCell(2, 2, 'com.proofhub.testcases.PasswordPageTest')
+data.setCell(2, 3, 21035);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addProjectWithMandatoryFieldsTest')
+data.setCell(3, 2, 'com.proofhub.testcases.ProjectAddTest')
+data.setCell(3, 3, 17960);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addProjectWithMandatoryFieldsTest')
+data.setCell(4, 2, 'com.proofhub.testcases.ProjectAddTest')
+data.setCell(4, 3, 17853);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addProjectWithMandatoryFieldsTest')
+data.setCell(5, 2, 'com.proofhub.testcases.ProjectAddTest')
+data.setCell(5, 3, 17252);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateAddProjectScreenOpenedTest')
+data.setCell(6, 2, 'com.proofhub.testcases.ProjectAddTest')
+data.setCell(6, 3, 5742);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateAssignedToMePageLoadedTest')
+data.setCell(7, 2, 'com.proofhub.testcases.ProjectsAssignedToMeTest')
+data.setCell(7, 3, 4261);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'uiElementsTest')
+data.setCell(8, 2, 'com.proofhub.testcases.UsernamePageTest')
+data.setCell(8, 3, 2730);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateHomePageAfterLogin')
+data.setCell(9, 2, 'com.proofhub.testcases.HomePageTest')
+data.setCell(9, 3, 1616);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'usernamePage')
+data.setCell(10, 2, 'com.proofhub.testcases.UsernamePageTest')
+data.setCell(10, 3, 1500);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login')
+data.setCell(11, 2, 'com.proofhub.testcases.PasswordPageTest')
+data.setCell(11, 3, 1136);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'usernamePageTitleTest')
+data.setCell(12, 2, 'com.proofhub.testcases.UsernamePageTest')
+data.setCell(12, 3, 21);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageAfterLogin</span>
+                <span class="method-start">25475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27094 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.PasswordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoginButtonOnPasswordPageTest</span>
+                <span class="method-start">51232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBackToLoginLinkTest</span>
+                <span class="method-start">96113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">140896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142032 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.ProjectAddTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddProjectScreenOpenedTest</span>
+                <span class="method-start">169191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">174933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">177593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProjectWithMandatoryFieldsTest(Project1)</span>
+                <span class="method-start">202498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">220459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">221708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProjectWithMandatoryFieldsTest(Project2)</span>
+                <span class="method-start">246340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">264193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">265457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProjectWithMandatoryFieldsTest(Project3)</span>
+                <span class="method-start">289490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306742 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.ProjectsAssignedToMeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">307967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAssignedToMePageLoadedTest</span>
+                <span class="method-start">331606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">335868 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.Test1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userNamePageUIElementsTest</span>
+                <span class="method-start">337148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proofhub.testcases.UsernamePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">362741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">usernamePageTitleTest</span>
+                <span class="method-start">378227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">378250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">379491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uiElementsTest</span>
+                <span class="method-start">399963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">402694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">403911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">usernamePage</span>
+                <span class="method-start">423867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">425368 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,6 @@
+com\proofhub\testcases\HomePageTest.class
+com\proofhub\testcases\Test1.class
+com\proofhub\testcases\UsernamePageTest.class
+com\proofhub\testcases\PasswordPageTest.class
+com\proofhub\testcases\ProjectAddTest.class
+com\proofhub\testcases\ProjectsAssignedToMeTest.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Proofhub Application Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.proofhub.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Proofhub tests">
+		<classes>
+			<class name="com.proofhub.testcases.HomePageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

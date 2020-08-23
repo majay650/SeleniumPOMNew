@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="13" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="426662" started-at="2020-08-19T08:30:37 IST" finished-at="2020-08-19T08:37:44 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="426662" started-at="2020-08-19T08:30:37 IST" finished-at="2020-08-19T08:37:44 IST">
+      <class name="com.proofhub.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.HomePageTest@694e1548]" name="setUp" is-config="true" duration-ms="25474" started-at="2020-08-19T08:30:37 IST" finished-at="2020-08-19T08:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePageAfterLogin()[pri:0, instance:com.proofhub.testcases.HomePageTest@694e1548]" name="validateHomePageAfterLogin" duration-ms="1616" started-at="2020-08-19T08:31:03 IST" finished-at="2020-08-19T08:31:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageAfterLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.HomePageTest@694e1548]" name="tearDown" is-config="true" duration-ms="1232" started-at="2020-08-19T08:31:04 IST" finished-at="2020-08-19T08:31:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.proofhub.testcases.HomePageTest -->
+      <class name="com.proofhub.testcases.ProjectsAssignedToMeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.proofhub.testcases.ProjectsAssignedToMeTest@26aa12dd]" name="setup" is-config="true" duration-ms="23639" started-at="2020-08-19T08:35:45 IST" finished-at="2020-08-19T08:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateAssignedToMePageLoadedTest()[pri:0, instance:com.proofhub.testcases.ProjectsAssignedToMeTest@26aa12dd]" name="validateAssignedToMePageLoadedTest" duration-ms="4261" started-at="2020-08-19T08:36:09 IST" finished-at="2020-08-19T08:36:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAssignedToMePageLoadedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.ProjectsAssignedToMeTest@26aa12dd]" name="tearDown" is-config="true" duration-ms="1280" started-at="2020-08-19T08:36:13 IST" finished-at="2020-08-19T08:36:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.proofhub.testcases.ProjectsAssignedToMeTest -->
+      <class name="com.proofhub.testcases.ProjectAddTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="setUp" is-config="true" duration-ms="25804" started-at="2020-08-19T08:33:01 IST" finished-at="2020-08-19T08:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAddProjectScreenOpenedTest()[pri:1, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="validateAddProjectScreenOpenedTest" duration-ms="5742" started-at="2020-08-19T08:33:26 IST" finished-at="2020-08-19T08:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddProjectScreenOpenedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="tearDown" is-config="true" duration-ms="1226" started-at="2020-08-19T08:33:32 IST" finished-at="2020-08-19T08:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="setUp" is-config="true" duration-ms="24905" started-at="2020-08-19T08:33:35 IST" finished-at="2020-08-19T08:34:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProjectWithMandatoryFieldsTest(java.lang.String)[pri:2, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="addProjectWithMandatoryFieldsTest" duration-ms="17960" started-at="2020-08-19T08:34:00 IST" data-provider="getProofhubTestData" finished-at="2020-08-19T08:34:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectWithMandatoryFieldsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="tearDown" is-config="true" duration-ms="1249" started-at="2020-08-19T08:34:18 IST" finished-at="2020-08-19T08:34:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="setUp" is-config="true" duration-ms="24632" started-at="2020-08-19T08:34:19 IST" finished-at="2020-08-19T08:34:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProjectWithMandatoryFieldsTest(java.lang.String)[pri:2, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="addProjectWithMandatoryFieldsTest" duration-ms="17853" started-at="2020-08-19T08:34:43 IST" data-provider="getProofhubTestData" finished-at="2020-08-19T08:35:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectWithMandatoryFieldsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="tearDown" is-config="true" duration-ms="1264" started-at="2020-08-19T08:35:01 IST" finished-at="2020-08-19T08:35:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="setUp" is-config="true" duration-ms="24033" started-at="2020-08-19T08:35:03 IST" finished-at="2020-08-19T08:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProjectWithMandatoryFieldsTest(java.lang.String)[pri:2, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="addProjectWithMandatoryFieldsTest" duration-ms="17252" started-at="2020-08-19T08:35:27 IST" data-provider="getProofhubTestData" finished-at="2020-08-19T08:35:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectWithMandatoryFieldsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.ProjectAddTest@131276c2]" name="tearDown" is-config="true" duration-ms="1225" started-at="2020-08-19T08:35:44 IST" finished-at="2020-08-19T08:35:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.proofhub.testcases.ProjectAddTest -->
+      <class name="com.proofhub.testcases.PasswordPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="setUp" is-config="true" duration-ms="22903" started-at="2020-08-19T08:31:05 IST" finished-at="2020-08-19T08:31:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyLoginButtonOnPasswordPageTest()[pri:1, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="verifyLoginButtonOnPasswordPageTest" duration-ms="21298" started-at="2020-08-19T08:31:28 IST" finished-at="2020-08-19T08:31:50 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -> xpath: //span[text()='LOG IN']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -> xpath: //span[text()='LOG IN']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.proofhub.pages.PasswordPage.validateLoginButton(PasswordPage.java:30)
+at com.proofhub.testcases.PasswordPageTest.verifyLoginButtonOnPasswordPageTest(PasswordPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonOnPasswordPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="tearDown" is-config="true" duration-ms="1199" started-at="2020-08-19T08:31:50 IST" finished-at="2020-08-19T08:31:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="setUp" is-config="true" duration-ms="22379" started-at="2020-08-19T08:31:51 IST" finished-at="2020-08-19T08:32:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyBackToLoginLinkTest()[pri:2, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="verifyBackToLoginLinkTest" duration-ms="21035" started-at="2020-08-19T08:32:13 IST" finished-at="2020-08-19T08:32:34 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -> link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -> link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.proofhub.pages.PasswordPage.validateBackToLoginLink(PasswordPage.java:35)
+at com.proofhub.testcases.PasswordPageTest.verifyBackToLoginLinkTest(PasswordPageTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackToLoginLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="tearDown" is-config="true" duration-ms="1196" started-at="2020-08-19T08:32:34 IST" finished-at="2020-08-19T08:32:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="setUp" is-config="true" duration-ms="22550" started-at="2020-08-19T08:32:35 IST" finished-at="2020-08-19T08:32:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:3, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="login" duration-ms="1136" started-at="2020-08-19T08:32:58 IST" finished-at="2020-08-19T08:32:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.PasswordPageTest@1c3a4799]" name="tearDown" is-config="true" duration-ms="1354" started-at="2020-08-19T08:32:59 IST" finished-at="2020-08-19T08:33:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.proofhub.testcases.PasswordPageTest -->
+      <class name="com.proofhub.testcases.Test1">
+        <test-method status="FAIL" signature="userNamePageUIElementsTest()[pri:0, instance:com.proofhub.testcases.Test1@3fd7a715]" name="userNamePageUIElementsTest" duration-ms="25591" started-at="2020-08-19T08:36:14 IST" finished-at="2020-08-19T08:36:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.proofhub.testcases.Test1.userNamePageUIElementsTest(Test1.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNamePageUIElementsTest -->
+      </class> <!-- com.proofhub.testcases.Test1 -->
+      <class name="com.proofhub.testcases.UsernamePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="SetUp" is-config="true" duration-ms="15486" started-at="2020-08-19T08:36:40 IST" finished-at="2020-08-19T08:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="usernamePageTitleTest()[pri:1, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="usernamePageTitleTest" duration-ms="21" started-at="2020-08-19T08:36:55 IST" finished-at="2020-08-19T08:36:55 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [todo12] but found [ProofHub]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [todo12] but found [ProofHub]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.proofhub.testcases.UsernamePageTest.usernamePageTitleTest(UsernamePageTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernamePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="tearDown" is-config="true" duration-ms="1241" started-at="2020-08-19T08:36:55 IST" finished-at="2020-08-19T08:36:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="SetUp" is-config="true" duration-ms="20472" started-at="2020-08-19T08:36:57 IST" finished-at="2020-08-19T08:37:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="uiElementsTest()[pri:2, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="uiElementsTest" duration-ms="2730" started-at="2020-08-19T08:37:17 IST" finished-at="2020-08-19T08:37:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiElementsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="tearDown" is-config="true" duration-ms="1217" started-at="2020-08-19T08:37:20 IST" finished-at="2020-08-19T08:37:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="SetUp" is-config="true" duration-ms="19956" started-at="2020-08-19T08:37:21 IST" finished-at="2020-08-19T08:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="usernamePage()[pri:3, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="usernamePage" duration-ms="1500" started-at="2020-08-19T08:37:41 IST" finished-at="2020-08-19T08:37:42 IST">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+at com.proofhub.pages.UsernamePage.enterUsername(UsernamePage.java:59)
+at com.proofhub.testcases.UsernamePageTest.usernamePage(UsernamePageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernamePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.proofhub.testcases.UsernamePageTest@711f39f9]" name="tearDown" is-config="true" duration-ms="1240" started-at="2020-08-19T08:37:42 IST" finished-at="2020-08-19T08:37:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.proofhub.testcases.UsernamePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

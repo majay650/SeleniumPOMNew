@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 428.972 sec <<< FAILURE!
+verifyLoginButtonOnPasswordPageTest(com.proofhub.testcases.PasswordPageTest)  Time elapsed: 21.302 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (c32f97dcb553a950382a7e4ea4ca6132)] -> xpath: //span[text()='LOG IN']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c32f97dcb553a950382a7e4ea4ca6132
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateLoginButton(PasswordPage.java:30)
+	at com.proofhub.testcases.PasswordPageTest.verifyLoginButtonOnPasswordPageTest(PasswordPageTest.java:31)
+
+verifyBackToLoginLinkTest(com.proofhub.testcases.PasswordPageTest)  Time elapsed: 21.037 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (1cfac2d4d8571cc24bd5de3a4149fcc9)] -> link text: Back to login] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEL1-LHP-N01850', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\AJAY~1.THA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1cfac2d4d8571cc24bd5de3a4149fcc9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.proofhub.pages.PasswordPage.validateBackToLoginLink(PasswordPage.java:35)
+	at com.proofhub.testcases.PasswordPageTest.verifyBackToLoginLinkTest(PasswordPageTest.java:36)
+
+userNamePageUIElementsTest(com.proofhub.testcases.Test1)  Time elapsed: 25.591 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.proofhub.testcases.Test1.userNamePageUIElementsTest(Test1.java:29)
+
+usernamePageTitleTest(com.proofhub.testcases.UsernamePageTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+java.lang.AssertionError: expected [todo12] but found [ProofHub]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.proofhub.testcases.UsernamePageTest.usernamePageTitleTest(UsernamePageTest.java:33)
+
+usernamePage(com.proofhub.testcases.UsernamePageTest)  Time elapsed: 1.501 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.proofhub.pages.UsernamePage.enterUsername(UsernamePage.java:59)
+	at com.proofhub.testcases.UsernamePageTest.usernamePage(UsernamePageTest.java:48)
+
