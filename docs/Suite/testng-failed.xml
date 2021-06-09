@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.proofhub.testcases.Test1">
+        <methods>
+          <include name="userNamePageUIElementsTest"/>
+        </methods>
+      </class> <!-- com.proofhub.testcases.Test1 -->
+      <class name="com.proofhub.testcases.PasswordPageTest">
+        <methods>
+          <include name="verifyBackToLoginLinkTest"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginButtonOnPasswordPageTest"/>
+        </methods>
+      </class> <!-- com.proofhub.testcases.PasswordPageTest -->
+      <class name="com.proofhub.testcases.ProjectAddTest">
+        <methods>
+          <include name="addProjectWithMandatoryFieldsTest"/>
+          <include name="validateAddProjectScreenOpenedTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.proofhub.testcases.ProjectAddTest -->
+      <class name="com.proofhub.testcases.HomePageTest">
+        <methods>
+          <include name="validateHomePageAfterLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.proofhub.testcases.HomePageTest -->
+      <class name="com.proofhub.testcases.ProjectsAssignedToMeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateAssignedToMePageLoadedTest"/>
+        </methods>
+      </class> <!-- com.proofhub.testcases.ProjectsAssignedToMeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -30,7 +30,7 @@ public class UsernamePageTest extends TestBase {
 	@Test(priority=1)
 	public void usernamePageTitleTest() throws InterruptedException {
 		String title = usernamePage.getUsernamePageTitle();
-		Assert.assertEquals(title, "todo12");
+		Assert.assertEquals(title, "ProofHub");
 	}
 
 	@Test(priority=2)
@@ -40,12 +40,12 @@ public class UsernamePageTest extends TestBase {
 		boolean usernameTextfield = usernamePage.validateUsernameTextField();
 		Assert.assertTrue(usernameTextfield, "Username textfield is displayed");
 		String companyNameText = usernamePage.getCompanyNameText();
-		Assert.assertEquals(companyNameText, "todo15");
+		Assert.assertEquals(companyNameText, "todo150");
 	}
 
 	@Test(priority=3)
 	public void usernamePage() throws InterruptedException {
-		passwordPage = usernamePage.enterUsername(prop.getProperty("username11"));
+		passwordPage = usernamePage.enterUsername(prop.getProperty("username"));
 	}
 
 	@AfterMethod

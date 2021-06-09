@@ -27,7 +27,7 @@ public class TestBase {
 		  prop = new Properties();
 		 FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("C:\\Users\\ajay.thakur1\\eclipse-workspace\\NaveenProofhubAutomation\\src\\main\\java\\com\\proofhub\\config\\Config.properties");
+			fis = new FileInputStream("C:\\Users\\ajay.thakur1\\eclipse-workspace\\AjayProofhubAutomation\\src\\main\\java\\com\\proofhub\\config\\Config.properties");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
